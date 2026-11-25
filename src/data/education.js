@@ -10,23 +10,25 @@ export const education = [
   },
   {
     id: "edu-2",
-    institution: "Pendidikan Menengah Atas / Kejuruan",
+    institution: "SMA Negeri 7 Padang",
     program: "Jurusan Matematika dan Ilmu Pengetahuan Alam",
     start: "2019",
     end: "2022",
     gpa: "Nilai Memuaskan",
-    description: "Fokus pada algoritma dasar pemrograman, dasar-dasar basis data, dan aplikasi perkantoran Microsoft Office.",
+    description: "Fokus pada algoritma dasar komputer, dasar-dasar komputer, dan aplikasi perkantoran Microsoft Office.",
   },
 ];
 
 export const certifications = [
   {
     id: "cert-1",
-    name: "Sertifikasi Pengembangan Web Laravel & PHP Modern",
-    issuer: "Badan Nasional Sertifikasi Profesi (BNSP) / Mitra Industri",
-    year: 2025,
-    url: "https://bnsp.go.id",
+    name: "Sertifikasi Kegiatan Magang DPRD Sumatera Barat",
+    issuer: "Dewan Perwakilan Rakyat Daerah Sumatera Barat",
+    year: 2026,
+    
   },
+  
+ /* tambahin kalau nanti ada (someday)
   {
     id: "cert-2",
     name: "Sertifikasi Perancangan & Pengelolaan Basis Data MySQL",
@@ -34,11 +36,7 @@ export const certifications = [
     year: 2024,
     url: "https://lsp-ti.id",
   },
-  {
-    id: "cert-3",
-    name: "Microsoft Office Specialist (Word & Excel)",
-    issuer: "Certiport / Microsoft",
-    year: 2023,
-    url: "https://certiport.pearsonvue.com",
-  },
+
+  */
+
 ];

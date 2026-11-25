@@ -1,4 +1,4 @@
-export const projectCategories = ["All", "Web Aplication", "UI/UX"];
+export const projectCategories = ["All", "Web Aplication"];
 
 export const projects = [
   {

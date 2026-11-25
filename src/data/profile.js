@@ -12,10 +12,10 @@ export const profile = {
   email: "wandaher.zik@gmail.com",
   phone: "+62 812-3456-7890",
   availableForWork: true,
-  cvUrl: "/files/CV_Wanda_Herlia_Zikra.pdf",
+  cvUrl: "/files/CV_Wanda_Herlia_Zikra_.pdf",
   socials: [
-        { name: "Instagram", url: "https://instagram.com/wandaherlia", icon: "FiInstagram" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/wanda-herlia-171802307/", icon: "FiLinkedin", short: "in" },
+        { name: "Instagram", url: "https://www.instagram.com/wanwanda17_?avpt=MTh3ODlsazAwam0ycg==", icon: "FiInstagram" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/wanda-herlia-zikra-171802307/", icon: "FiLinkedin", short: "in" },
     { name: "GitHub", url: "https://github.com/wandaherzik", icon: "FiGithub" },
   ],
 };
