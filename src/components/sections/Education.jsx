@@ -56,7 +56,7 @@ export default function Education() {
                   <FiAward className="h-5 w-5" />
                 </div>
                 <h3 className="font-display text-2xl text-primary-dark">
-                  Sertifikasi Profesional
+                  Sertifikasi 
                 </h3>
               </div>
 

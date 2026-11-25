@@ -119,7 +119,7 @@ export default function Contact() {
 
                 {/* Instagram Button */}
                 <a
-                  href="https://instagram.com/wandaherlia"
+                  href="https://www.instagram.com/wanwanda17_?avpt=MTh3ODlsazAwam0ycg=="
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram (membuka tab baru)"
@@ -130,7 +130,7 @@ export default function Contact() {
 
                 {/* LinkedIn Button */}
                 <a
-                  href="https://linkedin.com/in/wandaherlia"
+                  href="www.linkedin.com/in/wanda-herlia-zikra-171802307"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn (membuka tab baru)"
