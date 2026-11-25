@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" fill="#073535"/>
+  <!-- UI Container -->
+  <rect x="60" y="50" width="680" height="500" rx="20" fill="#0B4A4A"/>
+  <!-- Top bar -->
+  <rect x="60" y="50" width="680" height="65" rx="20" fill="#073535"/>
+  <rect x="60" y="95" width="680" height="20" fill="#073535"/>
+  <circle cx="100" cy="82" r="14" fill="#F8D27C"/>
+  <text x="125" y="89" font-family="DM Sans, sans-serif" font-weight="bold" font-size="18" fill="#FDF1EA">EduQuest Academy</text>
+  <!-- XP badge -->
+  <rect x="580" y="68" width="130" height="28" rx="14" fill="#F8D27C"/>
+  <text x="600" y="87" font-family="DM Sans, sans-serif" font-weight="bold" font-size="13" fill="#073535">★ 2,450 XP</text>
+
+  <!-- Quest Map / Main Area -->
+  <rect x="90" y="140" width="420" height="380" rx="16" fill="#FDF1EA"/>
+  <text x="120" y="180" font-family="DM Serif Display, Georgia, serif" font-size="24" fill="#0B4A4A">Modul 3: Algoritma &amp; State</text>
+  <!-- Progress bar -->
+  <rect x="120" y="200" width="360" height="12" rx="6" fill="#E2D0C6"/>
+  <rect x="120" y="200" width="240" height="12" rx="6" fill="#3E9C9A"/>
+
+  <!-- Quest Nodes -->
+  <circle cx="170" cy="280" r="28" fill="#3E9C9A"/>
+  <text x="162" y="287" font-size="20" fill="#FFFFFF">✓</text>
+  <line x1="198" y1="280" x2="272" y2="280" stroke="#3E9C9A" stroke-width="4" stroke-dasharray="6 6"/>
+
+  <circle cx="300" cy="280" r="32" fill="#F8D27C" stroke="#0B4A4A" stroke-width="4"/>
+  <text x="293" y="287" font-size="20" fill="#073535">▶</text>
+  <line x1="332" y1="280" x2="402" y2="280" stroke="#E2D0C6" stroke-width="4" stroke-dasharray="6 6"/>
+
+  <circle cx="430" cy="280" r="28" fill="#E2D0C6"/>
+  <text x="424" y="287" font-size="18" fill="#888">🔒</text>
+
+  <!-- Quiz Card Preview -->
+  <rect x="120" y="340" width="360" height="150" rx="12" fill="#FFFFFF"/>
+  <text x="140" y="375" font-family="DM Sans, sans-serif" font-weight="bold" font-size="15" fill="#0B4A4A">Tantangan Harian: Optimasi Hook</text>
+  <rect x="140" y="400" width="150" height="30" rx="8" fill="#FDF1EA"/>
+  <text x="155" y="420" font-family="DM Sans, sans-serif" font-size="12" fill="#0B4A4A">Opsi A: useMemo</text>
+  <rect x="310" y="400" width="150" height="30" rx="8" fill="#F9A88B"/>
+  <text x="325" y="420" font-family="DM Sans, sans-serif" font-weight="bold" font-size="12" fill="#073535">Opsi B: useCallback</text>
+
+  <!-- Leaderboard Sidebar -->
+  <rect x="530" y="140" width="180" height="380" rx="16" fill="#FDF1EA"/>
+  <text x="550" y="180" font-family="DM Sans, sans-serif" font-weight="bold" font-size="16" fill="#0B4A4A">Peringkat Teratas</text>
+  <rect x="550" y="210" width="140" height="45" rx="10" fill="#FFFFFF"/>
+  <rect x="550" y="265" width="140" height="45" rx="10" fill="#FFFFFF"/>
+  <rect x="550" y="320" width="140" height="45" rx="10" fill="#FFFFFF"/>
+</svg>

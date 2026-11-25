@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" fill="#3E9C9A"/>
+  <!-- UI Window Container -->
+  <rect x="60" y="50" width="680" height="500" rx="20" fill="#FFFFFF"/>
+  <!-- Navbar inside mockup -->
+  <rect x="60" y="50" width="680" height="70" rx="20" fill="#FDF1EA"/>
+  <rect x="60" y="100" width="680" height="20" fill="#FDF1EA"/>
+  <circle cx="100" cy="85" r="14" fill="#0B4A4A"/>
+  <text x="125" y="92" font-family="DM Serif Display, Georgia, serif" font-size="22" fill="#0B4A4A">AURA LIVING</text>
+  <rect x="520" y="73" width="80" height="24" rx="12" fill="#F9A88B"/>
+  <rect x="620" y="73" width="90" height="24" rx="12" fill="#0B4A4A"/>
+
+  <!-- Hero Section in Store -->
+  <rect x="90" y="150" width="300" height="260" rx="16" fill="#FDF1EA"/>
+  <text x="115" y="200" font-family="DM Serif Display, Georgia, serif" font-size="28" fill="#073535">Harmoni Ruang</text>
+  <text x="115" y="235" font-family="DM Serif Display, Georgia, serif" font-size="28" fill="#073535">&amp; Kenyamanan.</text>
+  <text x="115" y="275" font-family="DM Sans, sans-serif" font-size="14" fill="#0B4A4A">Koleksi furnitur kayu jati minimalis.</text>
+  <rect x="115" y="310" width="130" height="40" rx="20" fill="#0B4A4A"/>
+  <text x="145" y="335" font-family="DM Sans, sans-serif" font-weight="bold" font-size="13" fill="#FDF1EA">Jelajahi</text>
+
+  <!-- Product Showcase in Store -->
+  <rect x="420" y="150" width="290" height="260" rx="16" fill="#F8D27C" fill-opacity="0.3"/>
+  <!-- Armchair Illustration -->
+  <ellipse cx="565" cy="330" rx="90" ry="25" fill="#3E9C9A" fill-opacity="0.2"/>
+  <path d="M490 280 C490 210, 640 210, 640 280 L630 330 L500 330 Z" fill="#F9A88B"/>
+  <rect x="520" y="230" width="90" height="80" rx="16" fill="#0B4A4A"/>
+  <line x1="510" y1="330" x2="495" y2="360" stroke="#073535" stroke-width="6" stroke-linecap="round"/>
+  <line x1="620" y1="330" x2="635" y2="360" stroke="#073535" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Product Carousel Cards at Bottom -->
+  <rect x="90" y="430" width="180" height="95" rx="12" fill="#FDF1EA"/>
+  <rect x="290" y="430" width="180" height="95" rx="12" fill="#FDF1EA"/>
+  <rect x="490" y="430" width="220" height="95" rx="12" fill="#FDF1EA"/>
+</svg>

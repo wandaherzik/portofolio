@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600" fill="none">
+  <!-- Soft background element -->
+  <circle cx="250" cy="280" r="180" fill="#3E9C9A" fill-opacity="0.25"/>
+  
+  <!-- Torso & Clothing -->
+  <path d="M120 560 C120 440, 180 390, 250 390 C320 390, 380 440, 380 560 Z" fill="#0B4A4A"/>
+  <!-- Collar / Shirt Detail -->
+  <path d="M220 390 L250 440 L280 390 Z" fill="#F9A88B"/>
+  <path d="M250 440 L250 560" stroke="#FDF1EA" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="250" cy="480" r="5" fill="#F8D27C"/>
+  <circle cx="250" cy="520" r="5" fill="#F8D27C"/>
+
+  <!-- Neck -->
+  <rect x="225" y="320" width="50" height="80" rx="10" fill="#F9A88B"/>
+
+  <!-- Head / Face -->
+  <ellipse cx="250" cy="270" rx="90" ry="105" fill="#FCD5C5"/>
+
+  <!-- Hair Back & Top -->
+  <path d="M150 250 C145 150, 210 140, 250 140 C300 140, 355 155, 350 250 C335 210, 310 185, 250 185 C190 185, 165 210, 150 250 Z" fill="#073535"/>
+
+  <!-- Eyes & Eyebrows -->
+  <path d="M195 240 Q215 235 225 242" stroke="#073535" stroke-width="5" stroke-linecap="round"/>
+  <path d="M275 242 Q285 235 305 240" stroke="#073535" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="210" cy="265" r="9" fill="#073535"/>
+  <circle cx="290" cy="265" r="9" fill="#073535"/>
+  <circle cx="207" cy="262" r="3" fill="#FFFFFF"/>
+  <circle cx="287" cy="262" r="3" fill="#FFFFFF"/>
+
+  <!-- Cheeks Blush -->
+  <circle cx="190" cy="290" r="14" fill="#F9A88B" fill-opacity="0.6"/>
+  <circle cx="310" cy="290" r="14" fill="#F9A88B" fill-opacity="0.6"/>
+
+  <!-- Glasses (Stylish Round) -->
+  <circle cx="210" cy="265" r="28" stroke="#F8D27C" stroke-width="5" fill="none"/>
+  <circle cx="290" cy="265" r="28" stroke="#F8D27C" stroke-width="5" fill="none"/>
+  <path d="M238 265 L262 265" stroke="#F8D27C" stroke-width="5"/>
+  <path d="M182 265 L165 258" stroke="#F8D27C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M318 265 L335 258" stroke="#F8D27C" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M225 310 Q250 335 275 310" stroke="#073535" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Earring / Detail -->
+  <circle cx="160" cy="280" r="7" fill="#F8D27C"/>
+  <circle cx="340" cy="280" r="7" fill="#F8D27C"/>
+
+  <!-- Floating Sparkles around hero -->
+  <path d="M380 160 L385 180 L405 185 L385 190 L380 210 L375 190 L355 185 L375 180 Z" fill="#F8D27C"/>
+  <path d="M100 220 L104 235 L119 239 L104 243 L100 258 L96 243 L81 239 L96 235 Z" fill="#F9A88B"/>
+</svg>

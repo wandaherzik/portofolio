@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" fill="none">
+  <!-- Blob background -->
+  <path d="M420 260 C440 370, 370 440, 260 450 C150 460, 70 390, 60 270 C50 150, 140 70, 250 60 C360 50, 400 150, 420 260 Z" fill="#3E9C9A"/>
+  
+  <!-- Desk & Laptop -->
+  <rect x="140" y="360" width="220" height="16" rx="8" fill="#F8D27C"/>
+  <path d="M190 320 L310 320 L325 360 L175 360 Z" fill="#0B4A4A"/>
+  <rect x="200" y="240" width="100" height="75" rx="8" fill="#FDF1EA"/>
+  <!-- Code lines on laptop -->
+  <rect x="215" y="255" width="40" height="5" rx="2" fill="#3E9C9A"/>
+  <rect x="215" y="265" width="70" height="5" rx="2" fill="#F9A88B"/>
+  <rect x="225" y="275" width="55" height="5" rx="2" fill="#0B4A4A"/>
+  <rect x="215" y="285" width="30" height="5" rx="2" fill="#F8D27C"/>
+
+  <!-- Character behind laptop -->
+  <circle cx="250" cy="170" r="50" fill="#FCD5C5"/>
+  <path d="M210 155 C210 110, 290 110, 290 155 C275 140, 225 140, 210 155 Z" fill="#073535"/>
+  <circle cx="238" cy="165" r="5" fill="#073535"/>
+  <circle cx="262" cy="165" r="5" fill="#073535"/>
+  <path d="M243 180 Q250 190 257 180" stroke="#073535" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Body / arms -->
+  <path d="M185 240 C190 200, 310 200, 315 240 L300 320 L200 320 Z" fill="#0B4A4A"/>
+  <path d="M175 270 Q200 320 230 330" stroke="#FCD5C5" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M325 270 Q300 320 270 330" stroke="#FCD5C5" stroke-width="14" stroke-linecap="round" fill="none"/>
+
+  <!-- Crown Doodle on Top -->
+  <path d="M215 95 L225 65 L250 85 L275 65 L285 95 Z" fill="#F8D27C" stroke="#073535" stroke-width="3"/>
+
+  <!-- Smiley Badge Bottom Right -->
+  <circle cx="390" cy="380" r="32" fill="#F9A88B"/>
+  <circle cx="380" cy="375" r="4" fill="#073535"/>
+  <circle cx="400" cy="375" r="4" fill="#073535"/>
+  <path d="M380 390 Q390 402 400 390" stroke="#073535" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Floating Sparkles -->
+  <path d="M110 140 L114 152 L126 156 L114 160 L110 172 L106 160 L94 156 L106 152 Z" fill="#F8D27C"/>
+</svg>
