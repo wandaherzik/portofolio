@@ -16,10 +16,10 @@ export const photoCategories = ["All", "Profile", "Selected Works", "Visual & 3D
 export const photoGallery = [
   {
     id: "photo-1",
-    title: "Dokumentasi Kegiatan Magang",
+    title: "Dokumentasi Praktek Lapangan Industri",
     category: "Profile",
     src: "/images/hero-reference.png", // Ganti dengan foto Anda di public/images/
-    caption: "Foto profil visual bergaya editorial dengan turtleneck hijau di panel arch kuning.",
+    caption: "",
     year: "2026",
   },
   {

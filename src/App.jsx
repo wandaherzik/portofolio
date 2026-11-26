@@ -43,7 +43,7 @@ export default function App() {
       {/* Navigasi Utama Sticky */}
       <Navbar />
 
-      {/* Konten Utama Landmark <main id="main"> */}
+      {/* Konten Utama Landmark <main id="main">         <Gallery />  */}
       <main id="main" className="relative z-10">
         <Hero />
         <About />
@@ -51,7 +51,7 @@ export default function App() {
         <Suspense fallback={<SectionLoadingFallback />}>
           <Projects />
           <Education />
-          <Gallery />
+  
           <Testimonials />
           <Contact />
         </Suspense>

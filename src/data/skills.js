@@ -2,7 +2,7 @@ export const skillCategories = [
   {
     id: "web-design",
     title: "Web Design",
-    description: "Beautiful, responsive websites that engage and convert.",
+    description: "Merancang dan membangun website yang interaktif.",
     icon: "monitor",
     skills: [
       { name: "Laravel & PHP", level: 5 },
