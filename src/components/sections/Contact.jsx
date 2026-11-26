@@ -2,7 +2,7 @@ import { profile } from '../../data/profile'
 import Container from '../layout/Container'
 import Reveal from '../ui/Reveal'
 import { Sparkle } from '../ui/shapes'
-import { FiMail, FiMapPin, FiGlobe, FiInstagram, FiLinkedin } from 'react-icons/fi'
+import { FiMail, FiMapPin, FiGlobe, FiInstagram, FiGithub, FiLinkedin } from 'react-icons/fi'
 
 export default function Contact() {
   return (
@@ -92,52 +92,31 @@ export default function Contact() {
 
             <Reveal delay={0.3}>
               <div className="flex flex-wrap items-center gap-3">
-                {/* Behance Button */}
-                <a
-                  href="https://behance.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Behance (membuka tab baru)"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cream/40 text-cream font-bold text-sm hover:border-peach hover:bg-peach hover:text-primary-dark transition-all duration-200"
-                >
-                  Bē
-                </a>
+                {profile.socials?.map((social) => {
+                  const icon =
+                    social.name === 'GitHub' ? (
+                      <FiGithub className="h-5 w-5" aria-hidden="true" />
+                    ) : social.name === 'Instagram' ? (
+                      <FiInstagram className="h-5 w-5" aria-hidden="true" />
+                    ) : social.short ? (
+                      <span aria-hidden="true">{social.short}</span>
+                    ) : (
+                      <FiLinkedin className="h-5 w-5" aria-hidden="true" />
+                    )
 
-                {/* Dribbble Button */}
-                <a
-                  href="https://dribbble.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Dribbble (membuka tab baru)"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cream/40 text-cream text-sm hover:border-peach hover:bg-peach hover:text-primary-dark transition-all duration-200"
-                >
-                  {/* Basketball icon */}
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm7.93 9.07c-2.48-.48-4.83-.34-6.86.34-.14-.32-.29-.63-.45-.94 2.87-1.39 4.88-3.5 5.92-6.08 1.14 1.83 1.77 4.07 1.39 6.68zm-3.23-8.23c-.94 2.37-2.76 4.31-5.38 5.61-1.32-2.3-2.37-4.75-3.08-7.23 1.8-.78 3.8-1.22 5.91-1.22 1.09 0 2.14.12 3.14.34l-.59 2.5zm-10.42.94c.73 2.41 1.76 4.81 3.05 7.07-2.39 1.13-4.88 1.73-7.21 1.82C2.7 9.87 3.99 6.47 6.28 3.78zM3.48 14.7c2.2-.08 4.62-.64 6.94-1.73.4.78.78 1.57 1.12 2.37-3.69 1.36-6.42 3.96-7.85 7.42-1.35-2.22-1.92-4.97-.21-8.06zm9.89 6.74c1.3-3.2 3.86-5.63 7.37-6.95.42 2.7-.42 5.37-2.23 7.31-1.5 1.05-3.29 1.71-5.14 1.71-.58 0-1.15-.06-1.7-.17l1.7-1.9zm-3.15-5.23c-.32-.77-.67-1.52-1.05-2.27 1.95-.65 4.19-.78 6.56-.32.06.18.12.36.17.54-.34.13-.67.28-1 .44-1.74.83-3.32 1.95-4.68 3.32z" />
-                  </svg>
-                </a>
-
-                {/* Instagram Button */}
-                <a
-                  href="https://www.instagram.com/wanwanda17_?avpt=MTh3ODlsazAwam0ycg=="
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram (membuka tab baru)"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cream/40 text-cream hover:border-peach hover:bg-peach hover:text-primary-dark transition-all duration-200"
-                >
-                  <FiInstagram className="h-5 w-5" />
-                </a>
-
-                {/* LinkedIn Button */}
-                <a
-                  href="www.linkedin.com/in/wanda-herlia-zikra-171802307"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="LinkedIn (membuka tab baru)"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cream/40 text-cream font-bold text-sm hover:border-peach hover:bg-peach hover:text-primary-dark transition-all duration-200"
-                >
-                  in
-                </a>
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${social.name} (membuka tab baru)`}
+                      className="grid h-11 w-11 place-items-center rounded-full border border-cream/40 text-cream font-bold text-sm hover:border-peach hover:bg-peach hover:text-primary-dark transition-all duration-200"
+                    >
+                      {icon}
+                    </a>
+                  )
+                })}
               </div>
             </Reveal>
           </div>
